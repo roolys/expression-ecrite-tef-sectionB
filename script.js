@@ -114,7 +114,7 @@ function downloadContent() {
   const element = document.createElement('a');
   const file = new Blob([textToSave], { type: 'text/plain' });
   element.href = URL.createObjectURL(file);
-  element.download = 'expression-ecrite-TCFCanada-combinaison8.txt';
+  element.download = 'expression-ecrite-TEFCanada-sectionB.txt';
 
   // Ajoute le lien au corps du document et déclenche le téléchargement
   document.body.appendChild(element);
